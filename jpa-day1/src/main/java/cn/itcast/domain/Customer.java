@@ -4,15 +4,6 @@ import javax.persistence.*;
 
 /**
  * 客户的实体类
- * 配置映射关系
- * <p>
- * <p>
- * 1.实体类和表的映射关系
- *
- * @Entity:声明实体类
- * @Table : 配置实体类和表的映射关系
- * name : 配置数据库表的名称
- * 2.实体类中属性和表中字段的映射关系
  */
 @Entity
 public class Customer {
